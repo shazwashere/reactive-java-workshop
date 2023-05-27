@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="reactive-example" />
+        <module name="reactive-java-workshop" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="reactive-java-workshop" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
